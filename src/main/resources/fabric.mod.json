@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "lt2girlware",
+	"version": "${version}",
+	"name": "Minecraft",
+	"description": "Основная игра!",
+	"authors": [
+		"levin1337",
+		"SxdPandora",
+		"Nikita / DarkSide"
+	],
+	"contact": {
+		"homepage": "https://lt2girlware.ru/",
+		"sources": "https://t.me/lt2girlware"
+	},
+	"license": "Minecraft EULA",
+	"icon": "assets/lt2girlware/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.levin.Lt2girlware"
+		]
+	},
+	"mixins": [
+		"lt2girlware.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
